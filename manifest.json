@@ -3,13 +3,13 @@
   "manifest_version": 2,
 
 
-  "name": "click",
+  "name": "click nice",
 
 
-  "description": "click 特效",
+  "description": "click nice",
 
 
-  "version": "1.1.0",
+  "version": "2.0.0",
 
 
   "permissions": [
@@ -18,7 +18,8 @@
           "storage",
           "contextMenus",
           "tabs",
-          "notifications"
+          "notifications",
+          "history"
         ],
 
 

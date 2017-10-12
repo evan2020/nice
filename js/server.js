@@ -75,13 +75,29 @@ chrome.browserAction.setBadgeBackgroundColor({
 	color:"#666"
 })
 
+// 获取所有历史记录
+chrome.history.search({text:""}, function(data){
+		console.log("历史记录");
+		console.log(data)
+})
 
+// 查询历史记录某url的具体信息
+chrome.history.getVisits({url:"https://www.baidu.com/"}, function(data){
+	console.log("单个URl具体信息");
+	console.log(data)
+})
+
+// 获取当前窗口所有标签页详情
+chrome.tabs.query({}, function(data){
+	console.log("获取当前窗口所有标签页详情");
+	console.log(data)
+})
 
 
 
 $(document).ready(function(){
 
-
+	
 // ---------------------------------------------------
 
 	// 设定选择开启粒子特效功能 开始

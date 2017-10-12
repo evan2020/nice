@@ -1,0 +1,33 @@
+body {
+  width: 264px;
+  height: 400px;
+  padding: 8px;
+}
+body #cursor {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  padding: 0;
+}
+body #isTop #top {
+  position: relative;
+  left: 27px;
+  top: 0px;
+}
+body #isTop #noTop {
+  position: relative;
+  left: 83px;
+  top: 0px;
+}
+body #particle #pLeft {
+  position: relative;
+  left: 27px;
+  top: 0px;
+}
+body #particle #pRight {
+  position: relative;
+  left: 75px;
+  top: 0px;
+}
+/*# sourceMappingURL=server.css.map */

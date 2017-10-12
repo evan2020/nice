@@ -81,10 +81,7 @@ chrome.browserAction.setBadgeBackgroundColor({
 
 $(document).ready(function(){
 
-<<<<<<< HEAD
-=======
 
->>>>>>> eca50a601948656a23cebfc11aee541fbd44cc53
 // ---------------------------------------------------
 
 	// 设定选择开启粒子特效功能 开始
